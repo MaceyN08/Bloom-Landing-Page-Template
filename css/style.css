@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+}
+.navbar-brand {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+    color: #fff;
+}
+.social-icons a {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    font-size: 18px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.social-icons a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.hero-section {
+    background-color: #eb708b;
+    color: white;
+    padding: 50px 0;
+}
+.features-section {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+}
+.feature-title {
+    color: #666;
+    font-weight: bold;
+}
+.feature-text {
+    color: #999;
+}
+.products-section {
+    padding: 40px 0;
+}
+.product-box {
+    background-color: #444;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #eee;
+    margin-bottom: 20px;
+}
+.product-box img {
+    max-width: 40px;
+}
+.testimonials-section {
+    padding: 20px 0;
+}
+.testimonial-text {
+    margin-bottom: 30px;
+}
+.testimonial-author {
+    font-weight: bold;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+.btn-custom {
+    background-color: #333;
+    color: white;
+    border-radius: 0;
+}
+.btn-custom:hover {
+    background-color: #555;
+    color: white;
+}
